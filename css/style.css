@@ -33,7 +33,11 @@
 body {
     font-family: "Rubik", serif;
     position: relative;
-    min-height: 100vh
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 img {
     display: block;
