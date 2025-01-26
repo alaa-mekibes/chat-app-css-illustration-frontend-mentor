@@ -262,6 +262,8 @@ img {
     font-size: 9px;
     color: var(--dark-grayish-violet);
     letter-spacing: -.07px;
+    background-color: transparent;
+    margin: 0;
 }
 .main_container .phone_container .send .send_icon {
     background-color: var(--white);
