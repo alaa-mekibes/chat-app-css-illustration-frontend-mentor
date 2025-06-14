@@ -23,19 +23,19 @@
       <h1 class="visually_hidden">Chat app</h1>
     </header>
     <main class="main_container">
-      <section class="phone_container">
+      <section aria-label="chat app" class="phone_container">
         <div class="bar"></div>
         <div class="content">
           <!-- Profile box -->
-          <div class="profile_box">
+          <article aria-label="user profile image and user name" class="profile_box">
             <img src="images/avatar.jpg" alt="User pic" />
             <div class="user_info">
               <h2>Samuel Green</h2>
               <span>Available to Walk</span>
             </div>
-          </div>
+          </article>
           <!-- Chat -->
-          <div class="messages">
+          <article aria-label="messages section" class="messages">
             <div class="box_left">
               <p>That sounds great. I'd be happy with that.</p>
             </div>
@@ -71,17 +71,19 @@
               </div>
             </div>
             <!-- Send message -->
-            <div class="send">
+            <form aria-label="write a message to send" class="send">
               <input
                 class="send_box"
                 type="text"
+                required
+                aria-required="true"
                 placeholder="Type a message..."
               />
-              <button class="send_icon" aria-label="send message">
-                <i class="fa-solid fa-circle-chevron-right"></i>
+              <button aria-label="send message" type="button" class="send_icon">
+                <i aria-hidden="true" class="fa-solid fa-circle-chevron-right"></i>
               </button>
-            </div>
-          </div>
+            </form>
+          </article>
         </div>
       </section>
       <section class="description_container">
