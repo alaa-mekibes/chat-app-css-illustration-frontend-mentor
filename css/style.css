@@ -214,7 +214,6 @@ img {
   gap: 1rem;
 }
 .price {
-  color: var(--white);
   background-image: linear-gradient(
     to left,
     var(--light-violet),
@@ -229,6 +228,7 @@ img {
   padding-right: 1rem;
   padding-left: 1.5rem;
   position: relative;
+  span {color: var(--white)}
 }
 .price span:first-child {
   font-size: 0.5rem;
