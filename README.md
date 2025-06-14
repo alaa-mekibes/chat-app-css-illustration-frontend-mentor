@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/chat-app-css-illustration-T8MyTj3gJD
+- [Solution] URL(https://www.frontendmentor.io/solutions/chat-app-css-illustration-T8MyTj3gJD)
   
-- Live Site URL: https://alaa-mekibes.github.io/chat-app-css-illustration-frontend-mentor
+- [Live Site URL](https://alaa-mekibes.github.io/chat-app-css-illustration-frontend-mentor)
 
 ## My process
 
